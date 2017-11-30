@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url(../assets/images/bg.jpeg);
+    background-position: top center !important;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: table;
+    margin: 0px;
+    padding: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.coming-table {
+    font-family: 'Source Code Pro', monospace;
+    padding: 5em;
+    margin-top: 40vh;
+    background: rgba(156,39,176,0.9);
+    text-align: center;
+}
+
+.coming-table h1 {
+    font-weight: 600;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #9c27b0; /* purple 500 */
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    color: #e040fb; /* purple A200 */
+    text-decoration: none;
+}
+
+.small {
+    font-size: 75%;
+}
+
+/* For desktop: */
+.col-offset-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .coming-table {
+        padding: 1em;
+    }
+}
